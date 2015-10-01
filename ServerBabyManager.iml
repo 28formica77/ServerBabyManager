@@ -93,5 +93,16 @@
     <orderEntry type="library" exported="" name="Gradle: org.springframework.data:spring-data-rest-core:2.0.2.RELEASE" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.google.code.gson:gson:2.2.4" level="project" />
     <orderEntry type="library" exported="" name="Gradle: commons-beanutils:commons-beanutils:1.9.2" level="project" />
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/src/main/java" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

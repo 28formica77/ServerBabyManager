@@ -15,19 +15,10 @@
  * limitations under the License.
  * 
  */
-package org.magnum.Spring;
+package babymanagerserver;
 
-import javax.servlet.MultipartConfigElement;
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRegistration;
-
-import org.magnum.VideoRepository.NoDuplicatesVideoRepository;
-import org.magnum.VideoRepository.VideoRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.context.embedded.MultiPartConfigFactory;
-import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.WebApplicationInitializer;
@@ -37,6 +28,10 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
+import javax.servlet.ServletContext;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRegistration;
+
 
 @EnableAutoConfiguration
 @ComponentScan
@@ -44,27 +39,8 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @EnableWebMvc
 public class Application implements WebApplicationInitializer {
 
-	private static final String MAX_REQUEST_SIZE = "50MB";
-
-	// The entry point to the application.
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
-	}
-
-	@Bean
-	public VideoRepository videoRepository() {
-		return new NoDuplicatesVideoRepository();
-	}
-	
-	@Bean
-    public MultipartConfigElement multipartConfigElement() {
-
-		final MultiPartConfigFactory factory = new MultiPartConfigFactory();
-
-		factory.setMaxFileSize(MAX_REQUEST_SIZE);
-		factory.setMaxRequestSize(MAX_REQUEST_SIZE);
-
-		return factory.createMultipartConfig();
 	}
 
 	@Override
@@ -78,7 +54,7 @@ public class Application implements WebApplicationInitializer {
 
 	private AnnotationConfigWebApplicationContext getContext() {
 		AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
-		context.setConfigLocation("org.manum.Spring.Application");
+		context.setConfigLocation("Application");
 		return context;
 	}
 

@@ -21,42 +21,19 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.web.WebApplicationInitializer;
-import org.springframework.web.context.ContextLoaderListener;
-import org.springframework.web.context.WebApplicationContext;
-import org.springframework.web.context.support.AnnotationConfigWebApplicationContext;
-import org.springframework.web.servlet.DispatcherServlet;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
-
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.ServletRegistration;
 
 
 @EnableAutoConfiguration
 @ComponentScan
 @Configuration
 @EnableWebMvc
-public class Application implements WebApplicationInitializer {
+public class Application  {
 
 	public static void main(String[] args) {
 		SpringApplication.run(Application.class, args);
 	}
 
-	@Override
-	public void onStartup(ServletContext servletContext) throws ServletException {
-		WebApplicationContext context = getContext();
-		servletContext.addListener(new ContextLoaderListener(context));
-		ServletRegistration.Dynamic dispatcher = servletContext.addServlet("DispatcherServlet", new DispatcherServlet(context));
-		dispatcher.setLoadOnStartup(1);
-		dispatcher.addMapping("/*");
-	}
-
-	private AnnotationConfigWebApplicationContext getContext() {
-		AnnotationConfigWebApplicationContext context = new AnnotationConfigWebApplicationContext();
-		context.setConfigLocation("Application");
-		return context;
-	}
 
 
 }

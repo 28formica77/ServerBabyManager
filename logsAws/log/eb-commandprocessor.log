@@ -1,0 +1,141 @@
+[2015-10-02T05:09:41.951Z] DEBUG [1552]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-10-02T05:09:41.951Z] DEBUG [1552]  : Checking if the command processor should execute...
+[2015-10-02T05:09:41.982Z] DEBUG [1552]  : Checking whether the command is applicable to instance (i-7c7e77dd)..
+[2015-10-02T05:09:41.982Z] INFO  [1552]  : Command is applicable to this instance (i-7c7e77dd)..
+[2015-10-02T05:09:41.982Z] DEBUG [1552]  : Checking if the received command stage is valid..
+[2015-10-02T05:09:41.982Z] INFO  [1552]  : No stage_num in command. Valid stage..
+[2015-10-02T05:09:41.983Z] INFO  [1552]  : Received command CMD-PreInit: 
+{
+  "api_version" : "1.0",
+  "request_id": "0",
+  "command_name": "CMD-PreInit"
+}
+
+[2015-10-02T05:09:41.983Z] INFO  [1552]  : Command processor should execute command.
+[2015-10-02T05:09:41.983Z] DEBUG [1552]  : Storing current stage..
+[2015-10-02T05:09:41.983Z] DEBUG [1552]  : Stage_num does not exist. Not saving null stage. Returning..
+[2015-10-02T05:09:41.984Z] INFO  [1552]  : Executing Initialization
+[2015-10-02T05:09:41.984Z] INFO  [1552]  : Executing command: CMD-PreInit...
+[2015-10-02T05:09:41.984Z] DEBUG [1552]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-10-02T05:09:41.984Z] DEBUG [1552]  : Refreshing metadata..
+[2015-10-02T05:09:41.985Z] DEBUG [1552]  : Refreshed environment metadata.
+[2015-10-02T05:09:41.985Z] DEBUG [1552]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-10-02T05:09:41.986Z] DEBUG [1552]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-10-02T05:09:41.987Z] INFO  [1552]  : Found enabled addons: ["logpublish"].
+[2015-10-02T05:09:41.989Z] INFO  [1552]  : Updating Command definition of addon logpublish.
+[2015-10-02T05:09:41.989Z] DEBUG [1552]  : Loaded definition of Command CMD-PreInit.
+[2015-10-02T05:09:41.989Z] INFO  [1552]  : Executing command CMD-PreInit activities...
+[2015-10-02T05:09:41.989Z] DEBUG [1552]  : Setting environment variables..
+[2015-10-02T05:09:41.989Z] INFO  [1552]  : Running AddonsBefore for command CMD-PreInit...
+[2015-10-02T05:09:41.989Z] DEBUG [1552]  : Running stages of Command CMD-PreInit from stage 0 to stage 0...
+[2015-10-02T05:09:41.989Z] INFO  [1552]  : Running stage 0 of command CMD-PreInit...
+[2015-10-02T05:09:41.990Z] DEBUG [1552]  : Loaded 4 actions for stage 0.
+[2015-10-02T05:09:41.990Z] INFO  [1552]  : Running 1 of 4 actions: InfraWriteConfig...
+[2015-10-02T05:09:41.995Z] INFO  [1552]  : Running 2 of 4 actions: InfraWriteApp1...
+[2015-10-02T05:09:41.996Z] INFO  [1552]  : Running 3 of 4 actions: InfraWriteApp2...
+[2015-10-02T05:09:44.461Z] INFO  [1552]  : Running 4 of 4 actions: PreInitHook...
+[2015-10-02T05:09:44.790Z] INFO  [1552]  : Running AddonsAfter for command CMD-PreInit...
+[2015-10-02T05:09:44.790Z] INFO  [1552]  : Command CMD-PreInit succeeded!
+[2015-10-02T05:09:44.791Z] INFO  [1552]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2015-10-02T05:10:07.477Z] DEBUG [1667]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-10-02T05:10:07.477Z] DEBUG [1667]  : Checking if the command processor should execute...
+[2015-10-02T05:10:07.478Z] DEBUG [1667]  : Checking whether the command is applicable to instance (i-7c7e77dd)..
+[2015-10-02T05:10:07.478Z] INFO  [1667]  : Command is applicable to this instance (i-7c7e77dd)..
+[2015-10-02T05:10:07.478Z] DEBUG [1667]  : Checking if the received command stage is valid..
+[2015-10-02T05:10:07.479Z] INFO  [1667]  : Stage_num=0. Valid stage..
+[2015-10-02T05:10:07.479Z] INFO  [1667]  : Received command CMD-Startup(stage 0): {"execution_data":"{\"leader_election\":\"true\"}","instance_ids":["i-7c7e77dd"],"stage_num":0,"stage_name":"01_pre","command_name":"CMD-Startup","api_version":"1.0","resource_name":"AWSEBAutoScalingGroup","request_id":"72afe6b4-68c3-11e5-af19-674647601247","command_timeout":"600"}
+[2015-10-02T05:10:07.479Z] INFO  [1667]  : Command processor should execute command.
+[2015-10-02T05:10:07.479Z] DEBUG [1667]  : Storing current stage..
+[2015-10-02T05:10:07.479Z] INFO  [1667]  : Saving stage 0..
+[2015-10-02T05:10:07.480Z] INFO  [1667]  : Executing Application deployment
+[2015-10-02T05:10:07.481Z] INFO  [1667]  : Executing command: CMD-Startup(stage 0)...
+[2015-10-02T05:10:07.481Z] DEBUG [1667]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-10-02T05:10:07.481Z] DEBUG [1667]  : Refreshing metadata..
+[2015-10-02T05:10:07.892Z] DEBUG [1667]  : Refreshed environment metadata.
+[2015-10-02T05:10:07.892Z] DEBUG [1667]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-10-02T05:10:07.893Z] DEBUG [1667]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-10-02T05:10:07.894Z] INFO  [1667]  : Found enabled addons: ["logpublish"].
+[2015-10-02T05:10:07.897Z] INFO  [1667]  : Updating Command definition of addon logpublish.
+[2015-10-02T05:10:07.897Z] DEBUG [1667]  : Loaded definition of Command CMD-Startup.
+[2015-10-02T05:10:07.897Z] INFO  [1667]  : Executing command CMD-Startup activities...
+[2015-10-02T05:10:07.897Z] DEBUG [1667]  : Setting environment variables..
+[2015-10-02T05:10:07.897Z] INFO  [1667]  : Running AddonsBefore for command CMD-Startup...
+[2015-10-02T05:10:07.898Z] DEBUG [1667]  : Running stages of Command CMD-Startup from stage 0 to stage 0...
+[2015-10-02T05:10:07.898Z] INFO  [1667]  : Running stage 0 of command CMD-Startup...
+[2015-10-02T05:10:07.898Z] INFO  [1667]  : Running leader election...
+[2015-10-02T05:10:08.303Z] INFO  [1667]  : Instance is Leader.
+[2015-10-02T05:10:08.304Z] DEBUG [1667]  : Loaded 7 actions for stage 0.
+[2015-10-02T05:10:08.304Z] INFO  [1667]  : Running 1 of 7 actions: HealthdLogRotation...
+[2015-10-02T05:10:08.322Z] INFO  [1667]  : Running 2 of 7 actions: HealthdHTTPDLogging...
+[2015-10-02T05:10:08.322Z] INFO  [1667]  : Running 3 of 7 actions: HealthdNginxLogging...
+[2015-10-02T05:10:08.324Z] INFO  [1667]  : Running 4 of 7 actions: EbExtensionPreBuild...
+[2015-10-02T05:10:08.820Z] INFO  [1667]  : Running 5 of 7 actions: AppDeployPreHook...
+[2015-10-02T05:10:14.214Z] INFO  [1667]  : Running 6 of 7 actions: EbExtensionPostBuild...
+[2015-10-02T05:10:14.693Z] INFO  [1667]  : Running 7 of 7 actions: InfraCleanEbExtension...
+[2015-10-02T05:10:14.697Z] INFO  [1667]  : Command CMD-Startup(stage 0) succeeded!
+[2015-10-02T05:10:14.697Z] INFO  [1667]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2015-10-02T05:10:18.821Z] DEBUG [1734]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-10-02T05:10:18.821Z] DEBUG [1734]  : Checking if the command processor should execute...
+[2015-10-02T05:10:18.822Z] DEBUG [1734]  : Checking whether the command is applicable to instance (i-7c7e77dd)..
+[2015-10-02T05:10:18.822Z] INFO  [1734]  : Command is applicable to this instance (i-7c7e77dd)..
+[2015-10-02T05:10:18.822Z] DEBUG [1734]  : Checking if the received command stage is valid..
+[2015-10-02T05:10:18.822Z] DEBUG [1734]  : Stage_num=1. Checking previous stage..
+[2015-10-02T05:10:18.823Z] DEBUG [1734]  : Opening previous stage file /var/lib/eb-tools/data/stages/72afe6b4-68c3-11e5-af19-674647601247..
+[2015-10-02T05:10:18.823Z] DEBUG [1734]  : Previous stage file contains: 0.
+[2015-10-02T05:10:18.823Z] DEBUG [1734]  : Returning 0..
+[2015-10-02T05:10:18.823Z] INFO  [1734]  : Previous stage (0) is one less that current stage (1). Valid stage..
+[2015-10-02T05:10:18.886Z] INFO  [1734]  : Received command CMD-Startup(stage 1): {"instance_ids":["i-7c7e77dd"],"stage_num":1,"stage_name":"02_enact","command_name":"CMD-Startup","api_version":"1.0","resource_name":"AWSEBAutoScalingGroup","request_id":"72afe6b4-68c3-11e5-af19-674647601247","is_last_stage":true,"command_timeout":"600"}
+[2015-10-02T05:10:18.886Z] INFO  [1734]  : Command processor should execute command.
+[2015-10-02T05:10:18.886Z] DEBUG [1734]  : Storing current stage..
+[2015-10-02T05:10:18.886Z] INFO  [1734]  : This was last stage for the command. Removing saved stage info for request..
+[2015-10-02T05:10:18.887Z] INFO  [1734]  : Executing Application deployment
+[2015-10-02T05:10:18.887Z] INFO  [1734]  : Executing command: CMD-Startup(stage 1)...
+[2015-10-02T05:10:18.887Z] DEBUG [1734]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-10-02T05:10:18.887Z] DEBUG [1734]  : Refreshing metadata..
+[2015-10-02T05:10:18.888Z] DEBUG [1734]  : Refreshed environment metadata.
+[2015-10-02T05:10:18.888Z] DEBUG [1734]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-10-02T05:10:18.889Z] DEBUG [1734]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-10-02T05:10:18.890Z] INFO  [1734]  : Found enabled addons: ["logpublish"].
+[2015-10-02T05:10:18.892Z] INFO  [1734]  : Updating Command definition of addon logpublish.
+[2015-10-02T05:10:18.892Z] DEBUG [1734]  : Loaded definition of Command CMD-Startup.
+[2015-10-02T05:10:18.892Z] INFO  [1734]  : Executing command CMD-Startup activities...
+[2015-10-02T05:10:18.892Z] DEBUG [1734]  : Setting environment variables..
+[2015-10-02T05:10:18.892Z] DEBUG [1734]  : Running stages of Command CMD-Startup from stage 1 to stage 1...
+[2015-10-02T05:10:18.892Z] INFO  [1734]  : Running stage 1 of command CMD-Startup...
+[2015-10-02T05:10:18.892Z] DEBUG [1734]  : Loaded 3 actions for stage 1.
+[2015-10-02T05:10:18.892Z] INFO  [1734]  : Running 1 of 3 actions: AppDeployEnactHook...
+[2015-10-02T05:10:24.456Z] INFO  [1734]  : Running 2 of 3 actions: AppDeployPostHook...
+[2015-10-02T05:10:24.457Z] INFO  [1734]  : Running 3 of 3 actions: PostInitHook...
+[2015-10-02T05:10:24.457Z] INFO  [1734]  : Running AddonsAfter for command CMD-Startup...
+[2015-10-02T05:10:25.084Z] INFO  [1734]  : Command CMD-Startup(stage 1) succeeded!
+[2015-10-02T05:10:25.085Z] INFO  [1734]  : Command processor returning results: 
+{"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+[2015-10-02T05:23:02.126Z] DEBUG [2052]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-10-02T05:23:02.127Z] DEBUG [2052]  : Checking if the command processor should execute...
+[2015-10-02T05:23:02.128Z] DEBUG [2052]  : Checking whether the command is applicable to instance (i-7c7e77dd)..
+[2015-10-02T05:23:02.128Z] INFO  [2052]  : Command is applicable to this instance (i-7c7e77dd)..
+[2015-10-02T05:23:02.129Z] DEBUG [2052]  : Checking if the received command stage is valid..
+[2015-10-02T05:23:02.129Z] INFO  [2052]  : No stage_num in command. Valid stage..
+[2015-10-02T05:23:02.129Z] INFO  [2052]  : Received command CMD-BundleLogs: {"execution_data":"{\"aws_access_key_id\":\"ASIAIX75WHMR2NW442KA\",\"signature\":\"bJAsEHaS0dO9\\\/z2WhURpnmHMzgk=\",\"security_token\":\"AQoDYXdzEM\\\/\\\/\\\/\\\/\\\/\\\/\\\/\\\/\\\/\\\/\\\/wEa8ALQ9kdWF7doVJA2NNfx8tRnY2jzzrHmynm0BD0XZMdTWCh9wdrgaoCZbxn\\\/01AkfmnASNevKEBR8qRnheb7zILUaO67arkU7AY01bkuhl74T0hYKzYYxcnynSxLBXAs2DY6SqcJdE4JS7TuppnJOk3wYsLzozTl3RPPCo2O6c3gLAyxaeixhX2zXQDjWK64R2f\\\/rdPv2QMl5kUJv+3ctJIABQxicrOQFQe84i7VQH6iGytUVUASesgnMPEiSSdvSWw8Zo9ImyY2nE7ThXqy+ML\\\/veX0vVv0Du66WeYxcWrKTJADiY47y0Ku3Ovep6UkFM\\\/1nYHO9D4sABmjIm9sehjSWQ+Pv\\\/4XLlEuWkjS5jdnOcoeumHG9CsciSBHCWfNm4qAkiILI\\\/Ps5tO6SX\\\/\\\/nsE5LUSHnzT2y5kxJDqlA9Tq1NsdCVGJ68M5RhXVuHiVw6wU6v2geRYSgGGOQ5ZtjgC5\\\/Dz4GzaIlV6LmdIWo3+kKyCYnbiwBQ==\",\"policy\":\"eyJleHBpcmF0aW9uIjoiMjAxNS0xMC0wMlQwNTo1Mjo1OS44MDJaIiwiY29uZGl0aW9ucyI6W1sic3RhcnRzLXdpdGgiLCIkeC1hbXotbWV0YS10aW1lX3N0YW1wIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLXB1Ymxpc2hfbWVjaGFuaXNtIiwiIl0sWyJzdGFydHMtd2l0aCIsIiRrZXkiLCJyZXNvdXJjZXNcL2Vudmlyb25tZW50c1wvbG9nc1wvIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWJhdGNoX2lkIiwiIl0sWyJzdGFydHMtd2l0aCIsIiR4LWFtei1tZXRhLWZpbGVfbmFtZSIsIiJdLFsic3RhcnRzLXdpdGgiLCIkeC1hbXotc2VjdXJpdHktdG9rZW4iLCIiXSxbInN0YXJ0cy13aXRoIiwiJENvbnRlbnQtVHlwZSIsIiJdLFsiZXEiLCIkYnVja2V0IiwiZWxhc3RpY2JlYW5zdGFsay1ldS13ZXN0LTEtMzIwMzk1ODE4MzcyIl0sWyJlcSIsIiRhY2wiLCJwcml2YXRlIl1dfQ==\"}","instance_ids":["i-7c7e77dd"],"data":"a55c3e86-68c5-11e5-bec8-eb3500f2a5f6","command_name":"CMD-BundleLogs","api_version":"1.0","resource_name":"AWSEBAutoScalingGroup","request_id":"a55c3e86-68c5-11e5-bec8-eb3500f2a5f6","command_timeout":"600"}
+[2015-10-02T05:23:02.129Z] INFO  [2052]  : Command processor should execute command.
+[2015-10-02T05:23:02.129Z] DEBUG [2052]  : Storing current stage..
+[2015-10-02T05:23:02.129Z] DEBUG [2052]  : Stage_num does not exist. Not saving null stage. Returning..
+[2015-10-02T05:23:02.129Z] INFO  [2052]  : Executing CMD-BundleLogs - stage 
+[2015-10-02T05:23:02.130Z] INFO  [2052]  : Executing command: CMD-BundleLogs...
+[2015-10-02T05:23:02.130Z] DEBUG [2052]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+[2015-10-02T05:23:02.130Z] DEBUG [2052]  : Refreshing metadata..
+[2015-10-02T05:23:02.700Z] DEBUG [2052]  : Refreshed environment metadata.
+[2015-10-02T05:23:02.700Z] DEBUG [2052]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+[2015-10-02T05:23:02.701Z] DEBUG [2052]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+[2015-10-02T05:23:02.702Z] INFO  [2052]  : Found enabled addons: ["logpublish"].
+[2015-10-02T05:23:02.705Z] INFO  [2052]  : Updating Command definition of addon logpublish.
+[2015-10-02T05:23:02.705Z] DEBUG [2052]  : Loaded definition of Command CMD-BundleLogs.
+[2015-10-02T05:23:02.705Z] INFO  [2052]  : Executing command CMD-BundleLogs activities...
+[2015-10-02T05:23:02.705Z] DEBUG [2052]  : Setting environment variables..
+[2015-10-02T05:23:02.705Z] INFO  [2052]  : Running AddonsBefore for command CMD-BundleLogs...
+[2015-10-02T05:23:02.706Z] DEBUG [2052]  : Running stages of Command CMD-BundleLogs from stage 0 to stage 0...
+[2015-10-02T05:23:02.706Z] INFO  [2052]  : Running stage 0 of command CMD-BundleLogs...
+[2015-10-02T05:23:02.706Z] DEBUG [2052]  : Loaded 1 actions for stage 0.
+[2015-10-02T05:23:02.706Z] INFO  [2052]  : Running 1 of 1 actions: BundleLogs...

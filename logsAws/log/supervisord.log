@@ -1,0 +1,10 @@
+2015-10-02 05:10:21,448 CRIT Supervisor running as root (no user in config file)
+2015-10-02 05:10:21,448 WARN Included extra file "/etc/supervisor/conf.d/application.conf" during parsing
+2015-10-02 05:10:21,448 WARN Included extra file "/etc/supervisor/conf.d/containerlistener.conf" during parsing
+2015-10-02 05:10:21,999 INFO RPC interface 'supervisor' initialized
+2015-10-02 05:10:21,999 CRIT Server 'unix_http_server' running without any HTTP authentication checking
+2015-10-02 05:10:21,999 INFO supervisord started with pid 1775
+2015-10-02 05:10:23,007 INFO spawned: 'supervisor_listener' with pid 1828
+2015-10-02 05:10:23,023 INFO spawned: 'application-web-1' with pid 1829
+2015-10-02 05:10:24,204 INFO success: supervisor_listener entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2015-10-02 05:10:24,205 INFO success: application-web-1 entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)

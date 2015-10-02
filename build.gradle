@@ -26,9 +26,9 @@ compileJava {
     sourceCompatibility = 1.8
 }
 
-jar {
+war {
     baseName = 'babyServer'
-    version =  '0.1.0'
+    version =  '1'
 }
 
 repositories {

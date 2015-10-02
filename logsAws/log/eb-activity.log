@@ -1,0 +1,252 @@
+[2015-10-02T05:09:41.984Z] INFO  [1552]  - [Initialization] : Starting activity...
+[2015-10-02T05:09:41.989Z] INFO  [1552]  - [Initialization/AddonsBefore] : Starting activity...
+[2015-10-02T05:09:41.989Z] INFO  [1552]  - [Initialization/AddonsBefore] : Completed activity.
+[2015-10-02T05:09:41.989Z] INFO  [1552]  - [Initialization/PreInitStage0] : Starting activity...
+[2015-10-02T05:09:41.990Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteConfig] : Starting activity...
+[2015-10-02T05:09:41.995Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteConfig] : Completed activity. Result:
+  Recreated directory /opt/elasticbeanstalk/deploy/configuration/.
+  Generate appsource url file at /opt/elasticbeanstalk/deploy/configuration/appsourceurl.
+  Generate container config file at /opt/elasticbeanstalk/deploy/configuration/containerconfiguration.
+[2015-10-02T05:09:41.995Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp1] : Starting activity...
+[2015-10-02T05:09:41.996Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp1] : Completed activity. Result:
+  Recreated directory /opt/elasticbeanstalk/deploy/appsource.
+[2015-10-02T05:09:41.996Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2] : Starting activity...
+[2015-10-02T05:09:42.451Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2] : Starting activity...
+[2015-10-02T05:09:42.453Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2/Infra-WriteApplication2] : Starting activity...
+[2015-10-02T05:09:42.506Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2/Infra-WriteApplication2/Command 01downloadVersion] : Starting activity...
+[2015-10-02T05:09:44.392Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2/Infra-WriteApplication2/Command 01downloadVersion] : Completed activity.
+[2015-10-02T05:09:44.393Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2/Infra-WriteApplication2/Command 02deleteVersionDownloadScriptFile] : Starting activity...
+[2015-10-02T05:09:44.407Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2/Infra-WriteApplication2/Command 02deleteVersionDownloadScriptFile] : Completed activity.
+[2015-10-02T05:09:44.407Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2/Infra-WriteApplication2] : Completed activity.
+[2015-10-02T05:09:44.407Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2] : Completed activity.
+[2015-10-02T05:09:44.461Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2] : Completed activity.
+[2015-10-02T05:09:44.461Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook] : Starting activity...
+[2015-10-02T05:09:44.461Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook/01_install_dependencies.sh] : Starting activity...
+[2015-10-02T05:09:44.573Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook/01_install_dependencies.sh] : Completed activity.
+[2015-10-02T05:09:44.573Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook/01_install_procfile.sh] : Starting activity...
+[2015-10-02T05:09:44.682Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook/01_install_procfile.sh] : Completed activity.
+[2015-10-02T05:09:44.683Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook/01_install_proxy.sh] : Starting activity...
+[2015-10-02T05:09:44.789Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook/01_install_proxy.sh] : Completed activity.
+[2015-10-02T05:09:44.790Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/preinit.
+[2015-10-02T05:09:44.790Z] INFO  [1552]  - [Initialization/PreInitStage0] : Completed activity. Result:
+  Initialization - Command CMD-PreInit stage 0 completed
+[2015-10-02T05:09:44.790Z] INFO  [1552]  - [Initialization/AddonsAfter] : Starting activity...
+[2015-10-02T05:09:44.790Z] INFO  [1552]  - [Initialization/AddonsAfter] : Completed activity.
+[2015-10-02T05:09:44.790Z] INFO  [1552]  - [Initialization] : Completed activity. Result:
+  Initialization - Command CMD-PreInit succeeded
+[2015-10-02T05:10:07.480Z] INFO  [1667]  - [Application deployment] : Starting activity...
+[2015-10-02T05:10:07.897Z] INFO  [1667]  - [Application deployment/AddonsBefore] : Starting activity...
+[2015-10-02T05:10:07.898Z] INFO  [1667]  - [Application deployment/AddonsBefore] : Completed activity.
+[2015-10-02T05:10:08.303Z] INFO  [1667]  - [Application deployment/StartupStage0] : Starting activity...
+[2015-10-02T05:10:08.304Z] INFO  [1667]  - [Application deployment/StartupStage0/HealthdLogRotation] : Starting activity...
+[2015-10-02T05:10:08.321Z] INFO  [1667]  - [Application deployment/StartupStage0/HealthdLogRotation] : Completed activity.
+[2015-10-02T05:10:08.322Z] INFO  [1667]  - [Application deployment/StartupStage0/HealthdHTTPDLogging] : Starting activity...
+[2015-10-02T05:10:08.322Z] INFO  [1667]  - [Application deployment/StartupStage0/HealthdHTTPDLogging] : Completed activity.
+[2015-10-02T05:10:08.323Z] INFO  [1667]  - [Application deployment/StartupStage0/HealthdNginxLogging] : Starting activity...
+[2015-10-02T05:10:08.324Z] INFO  [1667]  - [Application deployment/StartupStage0/HealthdNginxLogging] : Completed activity.
+[2015-10-02T05:10:08.324Z] INFO  [1667]  - [Application deployment/StartupStage0/EbExtensionPreBuild] : Starting activity...
+[2015-10-02T05:10:08.787Z] INFO  [1667]  - [Application deployment/StartupStage0/EbExtensionPreBuild/Infra-EmbeddedPreBuild] : Starting activity...
+[2015-10-02T05:10:08.787Z] INFO  [1667]  - [Application deployment/StartupStage0/EbExtensionPreBuild/Infra-EmbeddedPreBuild] : Completed activity.
+[2015-10-02T05:10:08.820Z] INFO  [1667]  - [Application deployment/StartupStage0/EbExtensionPreBuild] : Completed activity.
+[2015-10-02T05:10:08.820Z] INFO  [1667]  - [Application deployment/StartupStage0/AppDeployPreHook] : Starting activity...
+[2015-10-02T05:10:08.820Z] INFO  [1667]  - [Application deployment/StartupStage0/AppDeployPreHook/01_configure_application.sh] : Starting activity...
+[2015-10-02T05:10:11.079Z] INFO  [1667]  - [Application deployment/StartupStage0/AppDeployPreHook/01_configure_application.sh] : Completed activity. Result:
+  Executing: /usr/bin/unzip -o -d /var/app/staging /opt/elasticbeanstalk/deploy/appsource/source_bundle
+  Archive:  /opt/elasticbeanstalk/deploy/appsource/source_bundle
+     creating: /var/app/staging/META-INF/
+    inflating: /var/app/staging/META-INF/MANIFEST.MF  
+     creating: /var/app/staging/WEB-INF/
+     creating: /var/app/staging/WEB-INF/classes/
+     creating: /var/app/staging/WEB-INF/classes/babymanagerserver/
+    inflating: /var/app/staging/WEB-INF/classes/babymanagerserver/Application.class  
+    inflating: /var/app/staging/WEB-INF/classes/babymanagerserver/servletInitializer.class  
+     creating: /var/app/staging/WEB-INF/classes/babymanagerserver/controllers/
+    inflating: /var/app/staging/WEB-INF/classes/babymanagerserver/controllers/webController.class  
+     creating: /var/app/staging/WEB-INF/lib/
+   extracting: /var/app/staging/WEB-INF/lib/spring-boot-starter-web-1.0.2.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-boot-starter-actuator-1.0.2.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-boot-starter-aop-1.0.2.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-boot-starter-test-1.0.2.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-data-rest-webmvc-2.0.2.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-boot-starter-1.0.2.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-boot-starter-tomcat-1.0.2.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/jackson-databind-2.3.3.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-web-4.0.3.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-webmvc-4.0.3.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-boot-actuator-1.0.2.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-aop-4.0.3.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/aspectjrt-1.7.4.jar  
+   extracting: /var/app/staging/WEB-INF/lib/aspectjweaver-1.7.4.jar  
+   extracting: /var/app/staging/WEB-INF/lib/junit-4.11.jar  
+   extracting: /var/app/staging/WEB-INF/lib/mockito-core-1.9.5.jar  
+   extracting: /var/app/staging/WEB-INF/lib/hamcrest-library-1.3.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-test-4.0.3.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-data-rest-core-2.0.2.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-boot-1.0.2.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-boot-autoconfigure-1.0.2.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-boot-starter-logging-1.0.2.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/snakeyaml-1.13.jar  
+   extracting: /var/app/staging/WEB-INF/lib/tomcat-embed-core-7.0.52.jar  
+   extracting: /var/app/staging/WEB-INF/lib/tomcat-embed-el-7.0.52.jar  
+   extracting: /var/app/staging/WEB-INF/lib/tomcat-embed-logging-juli-7.0.52.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-beans-4.0.3.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-context-4.0.3.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-core-4.0.3.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/aopalliance-1.0.jar  
+   extracting: /var/app/staging/WEB-INF/lib/hamcrest-core-1.3.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-tx-3.2.8.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-hateoas-0.9.0.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-data-commons-1.7.2.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-plugin-core-1.0.0.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/evo-inflector-1.0.1.jar  
+   extracting: /var/app/staging/WEB-INF/lib/jul-to-slf4j-1.7.7.jar  
+   extracting: /var/app/staging/WEB-INF/lib/log4j-over-slf4j-1.7.7.jar  
+   extracting: /var/app/staging/WEB-INF/lib/logback-classic-1.1.2.jar  
+   extracting: /var/app/staging/WEB-INF/lib/spring-expression-4.0.3.RELEASE.jar  
+   extracting: /var/app/staging/WEB-INF/lib/commons-logging-1.1.3.jar  
+   extracting: /var/app/staging/WEB-INF/lib/logback-core-1.1.2.jar  
+   extracting: /var/app/staging/WEB-INF/lib/jackson-annotations-2.3.0.jar  
+   extracting: /var/app/staging/WEB-INF/lib/jackson-core-2.3.3.jar  
+   extracting: /var/app/staging/WEB-INF/lib/jcl-over-slf4j-1.7.7.jar  
+   extracting: /var/app/staging/WEB-INF/lib/objenesis-1.3.jar  
+   extracting: /var/app/staging/WEB-INF/lib/slf4j-api-1.7.7.jar  
+     creating: /var/app/staging/org/
+     creating: /var/app/staging/org/springframework/
+     creating: /var/app/staging/org/springframework/boot/
+     creating: /var/app/staging/org/springframework/boot/loader/
+    inflating: /var/app/staging/org/springframework/boot/loader/PropertiesLauncher$ArchiveEntryFilter.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/PropertiesLauncher$PrefixMatchingArchiveFilter.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/ExecutableArchiveLauncher$1.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/PropertiesLauncher.class  
+     creating: /var/app/staging/org/springframework/boot/loader/data/
+    inflating: /var/app/staging/org/springframework/boot/loader/data/ByteArrayRandomAccessData.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/data/RandomAccessDataFile$DataInputStream.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/data/RandomAccessData.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/data/RandomAccessDataFile$FilePool.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/data/RandomAccessDataFile.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/data/RandomAccessData$ResourceAccess.class  
+     creating: /var/app/staging/org/springframework/boot/loader/util/
+    inflating: /var/app/staging/org/springframework/boot/loader/util/SystemPropertyUtils.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/util/AsciiBytes.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/LaunchedURLClassLoader$1.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/Launcher.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/LaunchedURLClassLoader.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/JarLauncher.class  
+     creating: /var/app/staging/org/springframework/boot/loader/jar/
+    inflating: /var/app/staging/org/springframework/boot/loader/jar/JarEntryFilter.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/jar/JarURLConnection.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/jar/JarEntry.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/jar/Bytes.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/jar/CentralDirectoryEndRecord.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/jar/JarFile$2.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/jar/ZipInflaterInputStream.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/jar/JarFile.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/jar/JarFile$1.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/jar/Handler.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/jar/JarEntryData.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/MainMethodRunner.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/WarLauncher.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/LaunchedURLClassLoader$2.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/PropertiesLauncher$1.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/WarLauncher$1.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/ExecutableArchiveLauncher.class  
+     creating: /var/app/staging/org/springframework/boot/loader/archive/
+    inflating: /var/app/staging/org/springframework/boot/loader/archive/JarFileArchive$JarFileEntry.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/archive/JarFileArchive.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/archive/FilteredArchive.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/archive/JarFileArchive$1.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/archive/ExplodedArchive.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/archive/FilteredArchive$2.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/archive/Archive$Entry.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/archive/Archive$EntryFilter.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/archive/FilteredArchive$1.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/archive/ExplodedArchive$FileEntry.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/archive/Archive.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/archive/Archive$EntryRenameFilter.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/archive/ExplodedArchive$FilteredURLStreamHandler.class  
+    inflating: /var/app/staging/org/springframework/boot/loader/archive/ExplodedArchive$FileNotFoundURLConnection.class  
+  Executing: HOME=/tmp /opt/elasticbeanstalk/lib/ruby/bin/ruby /opt/elasticbeanstalk/lib/ruby/bin/foreman export supervisord --procfile /var/app/staging/Procfile --root /var/app/current --app application --log /var/log/ --user webapp --template /opt/elasticbeanstalk/private/config/foreman/supervisord --env /var/elasticbeanstalk/staging/elasticbeanstalk.env /var/elasticbeanstalk/staging/supervisor
+  [foreman export] writing: application.conf
+  Executing: /opt/elasticbeanstalk/bin/log-conf -n supervisor -l'/var/log/supervisord.log' -t bundlelogs
+  
+  Executing: /opt/elasticbeanstalk/bin/log-conf -n containerlistener -l'/var/log/eb-container-listener.log' -t bundlelogs
+  
+[2015-10-02T05:10:11.079Z] INFO  [1667]  - [Application deployment/StartupStage0/AppDeployPreHook/03_configure_proxy.sh] : Starting activity...
+[2015-10-02T05:10:14.214Z] INFO  [1667]  - [Application deployment/StartupStage0/AppDeployPreHook/03_configure_proxy.sh] : Completed activity. Result:
+  Executing: /opt/elasticbeanstalk/bin/log-conf -n nginx -l'/var/log/nginx/*'
+  
+  Executing: /usr/sbin/nginx -t -c /var/elasticbeanstalk/staging/nginx/nginx.conf
+  nginx: the configuration file /var/elasticbeanstalk/staging/nginx/nginx.conf syntax is ok
+  nginx: configuration file /var/elasticbeanstalk/staging/nginx/nginx.conf test is successful
+[2015-10-02T05:10:14.214Z] INFO  [1667]  - [Application deployment/StartupStage0/AppDeployPreHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/pre.
+[2015-10-02T05:10:14.214Z] INFO  [1667]  - [Application deployment/StartupStage0/EbExtensionPostBuild] : Starting activity...
+[2015-10-02T05:10:14.654Z] INFO  [1667]  - [Application deployment/StartupStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Starting activity...
+[2015-10-02T05:10:14.654Z] INFO  [1667]  - [Application deployment/StartupStage0/EbExtensionPostBuild/Infra-EmbeddedPostBuild] : Completed activity.
+[2015-10-02T05:10:14.692Z] INFO  [1667]  - [Application deployment/StartupStage0/EbExtensionPostBuild] : Completed activity.
+[2015-10-02T05:10:14.693Z] INFO  [1667]  - [Application deployment/StartupStage0/InfraCleanEbExtension] : Starting activity...
+[2015-10-02T05:10:14.696Z] INFO  [1667]  - [Application deployment/StartupStage0/InfraCleanEbExtension] : Completed activity. Result:
+  Cleaned ebextensions subdirectories from /var/app/staging.
+[2015-10-02T05:10:14.697Z] INFO  [1667]  - [Application deployment/StartupStage0] : Completed activity. Result:
+  Application deployment - Command CMD-Startup stage 0 completed
+[2015-10-02T05:10:14.697Z] INFO  [1667]  - [Application deployment] : Completed activity. Result:
+  Application deployment - Command CMD-Startup(stage 0) succeeded
+[2015-10-02T05:10:18.887Z] INFO  [1734]  - [Application deployment] : Starting activity...
+[2015-10-02T05:10:18.892Z] INFO  [1734]  - [Application deployment/StartupStage1] : Starting activity...
+[2015-10-02T05:10:18.892Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployEnactHook] : Starting activity...
+[2015-10-02T05:10:18.893Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployEnactHook/01_stop_before_promote.sh] : Starting activity...
+[2015-10-02T05:10:20.465Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployEnactHook/01_stop_before_promote.sh] : Completed activity. Result:
+  Executing: /usr/local/bin/supervisorctl -c /etc/supervisor/conf.d/supervisord.conf stop application:*
+  unix:///tmp/supervisor.sock no such file
+  Executing: /usr/local/bin/supervisorctl -c /etc/supervisor/conf.d/supervisord.conf stop all
+  unix:///tmp/supervisor.sock no such file
+  Executing: /sbin/status supervisord
+  supervisord stop/waiting
+[2015-10-02T05:10:20.465Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployEnactHook/03_stop_proxy.sh] : Starting activity...
+[2015-10-02T05:10:20.643Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployEnactHook/03_stop_proxy.sh] : Completed activity. Result:
+  Executing: service nginx stop
+  
+[2015-10-02T05:10:20.643Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployEnactHook/05_promote_application.sh] : Starting activity...
+[2015-10-02T05:10:20.849Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployEnactHook/05_promote_application.sh] : Completed activity.
+[2015-10-02T05:10:20.849Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployEnactHook/07_start_application.sh] : Starting activity...
+[2015-10-02T05:10:21.085Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployEnactHook/07_start_application.sh] : Completed activity. Result:
+  Executing: /sbin/start supervisord
+  supervisord start/running, process 1775
+[2015-10-02T05:10:21.085Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployEnactHook/09_start_proxy.sh] : Starting activity...
+[2015-10-02T05:10:23.945Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployEnactHook/09_start_proxy.sh] : Completed activity. Result:
+  Executing: service nginx stop
+  
+  Executing: service nginx start
+  Starting nginx: [  OK  ]
+  Executing: /opt/elasticbeanstalk/bin/healthd-track-pidfile --proxy nginx
+  
+  Executing: /opt/elasticbeanstalk/bin/healthd-restart
+  
+[2015-10-02T05:10:23.946Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployEnactHook/11_stop_after_promote.sh] : Starting activity...
+[2015-10-02T05:10:24.456Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployEnactHook/11_stop_after_promote.sh] : Completed activity.
+[2015-10-02T05:10:24.456Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployEnactHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/enact.
+[2015-10-02T05:10:24.456Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployPostHook] : Starting activity...
+[2015-10-02T05:10:24.457Z] INFO  [1734]  - [Application deployment/StartupStage1/AppDeployPostHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/appdeploy/post.
+[2015-10-02T05:10:24.457Z] INFO  [1734]  - [Application deployment/StartupStage1/PostInitHook] : Starting activity...
+[2015-10-02T05:10:24.457Z] INFO  [1734]  - [Application deployment/StartupStage1/PostInitHook] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/postinit.
+[2015-10-02T05:10:24.457Z] INFO  [1734]  - [Application deployment/StartupStage1] : Completed activity. Result:
+  Application deployment - Command CMD-Startup stage 1 completed
+[2015-10-02T05:10:24.457Z] INFO  [1734]  - [Application deployment/AddonsAfter] : Starting activity...
+[2015-10-02T05:10:24.457Z] INFO  [1734]  - [Application deployment/AddonsAfter/ConfigLogRotation] : Starting activity...
+[2015-10-02T05:10:24.458Z] INFO  [1734]  - [Application deployment/AddonsAfter/ConfigLogRotation/10-config.sh] : Starting activity...
+[2015-10-02T05:10:25.084Z] INFO  [1734]  - [Application deployment/AddonsAfter/ConfigLogRotation/10-config.sh] : Completed activity. Result:
+  Disabled forced hourly log rotation.
+[2015-10-02T05:10:25.084Z] INFO  [1734]  - [Application deployment/AddonsAfter/ConfigLogRotation] : Completed activity. Result:
+  Successfully execute hooks in directory /opt/elasticbeanstalk/addons/logpublish/hooks/config.
+[2015-10-02T05:10:25.084Z] INFO  [1734]  - [Application deployment/AddonsAfter] : Completed activity.
+[2015-10-02T05:10:25.084Z] INFO  [1734]  - [Application deployment] : Completed activity. Result:
+  Application deployment - Command CMD-Startup(stage 1) succeeded
+[2015-10-02T05:23:02.130Z] INFO  [2052]  - [CMD-BundleLogs - stage ] : Starting activity...
+[2015-10-02T05:23:02.705Z] INFO  [2052]  - [CMD-BundleLogs - stage /AddonsBefore] : Starting activity...
+[2015-10-02T05:23:02.705Z] INFO  [2052]  - [CMD-BundleLogs - stage /AddonsBefore] : Completed activity.
+[2015-10-02T05:23:02.706Z] INFO  [2052]  - [CMD-BundleLogs - stage /BundleLogs] : Starting activity...
+[2015-10-02T05:23:02.706Z] INFO  [2052]  - [CMD-BundleLogs - stage /BundleLogs/BundleLogs] : Starting activity...

@@ -1,0 +1,435 @@
+Oct  2 05:09:09 ip-172-31-20-236 kernel: imklog 5.8.10, log source = /proc/kmsg started.
+Oct  2 05:09:09 ip-172-31-20-236 rsyslogd: [origin software="rsyslogd" swVersion="5.8.10" x-pid="1085" x-info="http://www.rsyslog.com"] start
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] PAT configuration [0-7]: WB  WT  UC- UC  WC  WP  UC  UC  
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Initializing cgroup subsys cpu
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Initializing cgroup subsys cpuacct
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Linux version 4.1.7-15.23.amzn1.x86_64 (mockbuild@gobi-build-60006) (gcc version 4.8.3 20140911 (Red Hat 4.8.3-9) (GCC) ) #1 SMP Mon Sep 14 23:20:33 UTC 2015
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Command line: root=LABEL=/ console=hvc0 LANG=en_US.UTF-8 KEYTABLE=us
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] ACPI in unprivileged domain disabled
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Released 0 page(s)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] e820: BIOS-provided physical RAM map:
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Xen: [mem 0x0000000000000000-0x000000000009ffff] usable
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Xen: [mem 0x00000000000a0000-0x00000000000fffff] reserved
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Xen: [mem 0x0000000000100000-0x0000000026efffff] usable
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] NX (Execute Disable) protection: active
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] DMI not present or invalid.
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Hypervisor detected: Xen
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] AGP: No AGP bridge found
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] e820: last_pfn = 0x26f00 max_arch_pfn = 0x400000000
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] init_memory_mapping: [mem 0x00000000-0x000fffff]
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] init_memory_mapping: [mem 0x26400000-0x265fffff]
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] init_memory_mapping: [mem 0x20000000-0x263fffff]
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] init_memory_mapping: [mem 0x00100000-0x1fffffff]
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] init_memory_mapping: [mem 0x26600000-0x26efffff]
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] RAMDISK: [mem 0x01dc4000-0x04637fff]
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] NUMA turned off
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Faking a node at [mem 0x0000000000000000-0x0000000026efffff]
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] NODE_DATA(0) allocated [mem 0x266da000-0x266fffff]
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Zone ranges:
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000]   DMA      [mem 0x0000000000001000-0x0000000000ffffff]
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000]   DMA32    [mem 0x0000000001000000-0x0000000026efffff]
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000]   Normal   empty
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Movable zone start for each node
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Early memory node ranges
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000]   node   0: [mem 0x0000000000001000-0x000000000009ffff]
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000]   node   0: [mem 0x0000000000100000-0x0000000026efffff]
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Initmem setup node 0 [mem 0x0000000000001000-0x0000000026efffff]
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] p2m virtual area at ffffc90000000000, size is 200000
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Remapped 0 page(s)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] smpboot: Allowing 1 CPUs, 0 hotplug CPUs
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] e820: [mem 0x26f00000-0xffffffff] available for PCI devices
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Booting paravirtualized kernel on Xen
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Xen version: 3.4.3.amazon (preserve-AD)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] clocksource refined-jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645519600211568 ns
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] setup_percpu: NR_CPUS:128 nr_cpumask_bits:128 nr_cpu_ids:1 nr_node_ids:1
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] PERCPU: Embedded 32 pages/cpu @ffff880026200000 s93976 r8192 d28904 u2097152
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 156878
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Policy zone: DMA32
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Kernel command line: root=LABEL=/ console=hvc0 LANG=en_US.UTF-8 KEYTABLE=us
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] PID hash table entries: 4096 (order: 3, 32768 bytes)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] AGP: Checking aperture...
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] AGP: No AGP bridge found
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Memory: 560580K/637564K available (5014K kernel code, 947K rwdata, 2320K rodata, 1148K init, 1580K bss, 76984K reserved, 0K cma-reserved)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Hierarchical RCU implementation.
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] 	Additional per-CPU info printed with stalls.
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] 	RCU restricting CPUs from NR_CPUS=128 to nr_cpu_ids=1.
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] RCU: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=1
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] NR_IRQS:8448 nr_irqs:32 16
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] xen:events: Using 2-level ABI
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] Console: colour dummy device 80x25
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] console [tty0] enabled
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] console [hvc0] enabled
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] clocksource xen: mask: 0xffffffffffffffff max_cycles: 0x1cd42e4dffb, max_idle_ns: 881590591483 ns
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] installing Xen timer for CPU 0
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [    0.000000] tsc: Detected 1800.000 MHz processor
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.452210] Calibrating delay loop (skipped), value calculated using timer frequency.. 3600.00 BogoMIPS (lpj=7200000)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.452227] pid_max: default: 32768 minimum: 301
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.452513] Security Framework initialized
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.452778] Dentry cache hash table entries: 131072 (order: 8, 1048576 bytes)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453112] Inode-cache hash table entries: 65536 (order: 7, 524288 bytes)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453246] Mount-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453261] Mountpoint-cache hash table entries: 2048 (order: 2, 16384 bytes)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453586] Initializing cgroup subsys blkio
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453597] Initializing cgroup subsys memory
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453616] Initializing cgroup subsys devices
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453625] Initializing cgroup subsys freezer
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453634] Initializing cgroup subsys net_cls
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453642] Initializing cgroup subsys perf_event
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453650] Initializing cgroup subsys net_prio
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453659] Initializing cgroup subsys hugetlb
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453739] CPU: Physical Processor ID: 1
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453746] CPU: Processor Core ID: 7
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453757] Last level iTLB entries: 4KB 512, 2MB 8, 4MB 8
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.453764] Last level dTLB entries: 4KB 512, 2MB 32, 4MB 32, 1GB 0
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.908051] Freeing SMP alternatives memory: 20K (ffffffff81c0d000 - ffffffff81c12000)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.910072] ftrace: allocating 19901 entries in 78 pages
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.923645] cpu 0 spinlock event irq 17
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.934824] Performance Events: unsupported p6 CPU model 45 no PMU driver, software events only.
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.935098] x86: Booted up 1 node, 1 CPUs
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.935233] devtmpfs: initialized
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.938227] clocksource jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.938479] NET: Registered protocol family 16
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.938503] xen:grant_table: Grant tables using version 1 layout
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.938519] Grant table initialized
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.939770] PCI: setting up Xen PCI frontend stub
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.942390] ACPI: Interpreter disabled.
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.942414] xen:balloon: Initialising balloon driver
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.943529] vgaarb: loaded
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.943706] PCI: System does not support PCI
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.943716] PCI: System does not support PCI
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.943868] NetLabel: Initializing
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.943876] NetLabel:  domain hash size = 128
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.943881] NetLabel:  protocols = UNLABELED CIPSOv4
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.943904] NetLabel:  unlabeled traffic allowed by default
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.943994] Switched to clocksource xen
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.949703] pnp: PnP ACPI: disabled
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.953465] NET: Registered protocol family 2
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.953660] TCP established hash table entries: 8192 (order: 4, 65536 bytes)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.953711] TCP bind hash table entries: 8192 (order: 5, 131072 bytes)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.953740] TCP: Hash tables configured (established 8192 bind 8192)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.953783] UDP hash table entries: 512 (order: 2, 16384 bytes)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.953798] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.953849] NET: Registered protocol family 1
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679750.953922] Unpacking initramfs...
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.002773] Freeing initrd memory: 41424K (ffff880001dc4000 - ffff880004638000)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.002908] platform rtc_cmos: registered platform RTC device (no PNP device found)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.002940] RAPL PMU detected, API unit is 2^-32 Joules, 3 fixed counters 163840 ms ovfl timer
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.002951] hw unit of domain pp0-core 2^-16 Joules
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.002957] hw unit of domain package 2^-16 Joules
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.002963] hw unit of domain dram 2^-16 Joules
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.003585] futex hash table entries: 256 (order: 2, 16384 bytes)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.003613] Initialise system trusted keyring
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.003649] audit: initializing netlink subsys (disabled)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.003684] audit: type=2000 audit(1443762524.716:1): initialized
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.004277] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.006021] zpool: loaded
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.007425] VFS: Disk quotas dquot_6.6.0
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.007480] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.008390] alg: No test for stdrng (krng)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.008409] Key type asymmetric registered
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.008418] Asymmetric key parser 'x509' registered
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.008452] bounce: pool size: 64 pages
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.008501] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 254)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.008583] io scheduler noop registered (default)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.008611] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.009120] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.015823] xen_netfront: Initialising Xen virtual ethernet driver
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679751.017959] i8042: PNP: No PS/2 controller found. Probing ports directly.
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.024187] clocksource tsc: mask: 0xffffffffffffffff max_cycles: 0x19f2297dd97, max_idle_ns: 440795236593 ns
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.024454] mousedev: PS/2 mouse device common for all mice
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.024543] hidraw: raw HID events driver (C) Jiri Kosina
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.024660] NET: Registered protocol family 17
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.024683] mce: Unable to init device /dev/mcelog (rc: -5)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.025064] Loading compiled-in X.509 certificates
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.026301] Loaded X.509 cert 'Build time autogenerated kernel key: 8f66a923638b21b030633c0e5b24b5355c380733'
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.026342] registered taskstats version 1
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.027287] blkfront: xvda1: barrier or flush: disabled; persistent grants: disabled; indirect descriptors: disabled;
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.048206] Setting capacity to 16777216
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.048222] xvda1: detected capacity change from 0 to 8589934592
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.124914] Freeing unused kernel memory: 1148K (ffffffff81aee000 - ffffffff81c0d000)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.124933] Write protecting the kernel read-only data: 10240k
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.128707] Freeing unused kernel memory: 1116K (ffff8800014e9000 - ffff880001600000)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.129826] Freeing unused kernel memory: 1776K (ffff880001844000 - ffff880001a00000)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.179066] dm_mod: module verification failed: signature and/or required key missing - tainting kernel
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.180581] device-mapper: uevent: version 1.0.3
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.180740] device-mapper: ioctl: 4.31.0-ioctl (2015-3-12) initialised: dm-devel@redhat.com
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.252461] SSE version of gcm_enc/dec engaged.
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.292968] alg: No test for __gcm-aes-aesni (__driver-gcm-aes-aesni)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.542506] EXT4-fs (xvda1): mounted filesystem with ordered data mode. Opts: (null)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679752.852319] EXT4-fs (xvda1): mounted filesystem with ordered data mode. Opts: (null)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679754.856966] random: nonblocking pool is initialized
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679763.756143] alg: No test for crc32 (crc32-pclmul)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679766.777549] EXT4-fs (xvda1): re-mounted. Opts: (null)
+Oct  2 05:09:09 ip-172-31-20-236 kernel: [51679769.123768] NET: Registered protocol family 10
+Oct  2 05:09:10 ip-172-31-20-236 irqbalance: Balancing is ineffective on systems with a single cpu.  Shutting down
+Oct  2 05:09:11 ip-172-31-20-236 rpc.statd[1130]: Version 1.3.0 starting
+Oct  2 05:09:11 ip-172-31-20-236 sm-notify[1131]: Version 1.3.0 starting
+Oct  2 05:09:11 ip-172-31-20-236 udevadm[1180]: --type=failed is deprecated and will be removed from a future udev release.
+Oct  2 05:09:21 ip-172-31-20-236 ntpdate[1271]: step time server 52.17.30.119 offset 0.267560 sec
+Oct  2 05:09:22 ip-172-31-20-236 ntpd[1277]: ntpd 4.2.6p5@1.2349-o Mon Aug 31 20:21:31 UTC 2015 (1)
+Oct  2 05:09:22 ip-172-31-20-236 ntpd[1278]: proto: precision = 1.049 usec
+Oct  2 05:09:22 ip-172-31-20-236 ntpd[1278]: 0.0.0.0 c01d 0d kern kernel time sync enabled
+Oct  2 05:09:22 ip-172-31-20-236 ntpd[1278]: Listen and drop on 0 v4wildcard 0.0.0.0 UDP 123
+Oct  2 05:09:22 ip-172-31-20-236 ntpd[1278]: Listen normally on 1 lo 127.0.0.1 UDP 123
+Oct  2 05:09:22 ip-172-31-20-236 ntpd[1278]: Listen normally on 2 eth0 172.31.20.236 UDP 123
+Oct  2 05:09:22 ip-172-31-20-236 ntpd[1278]: Listening on routing socket on fd #19 for interface updates
+Oct  2 05:09:24 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:24Z] Started EB User Data
+Oct  2 05:09:24 ip-172-31-20-236 [eb-cfn-init]: + SLEEP_TIME=10
+Oct  2 05:09:24 ip-172-31-20-236 [eb-cfn-init]: + SLEEP_TIME_MAX=3600
+Oct  2 05:09:24 ip-172-31-20-236 [eb-cfn-init]: + true
+Oct  2 05:09:24 ip-172-31-20-236 [eb-cfn-init]: + curl https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/UserDataScript.sh
+Oct  2 05:09:24 ip-172-31-20-236 [eb-cfn-init]:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+Oct  2 05:09:24 ip-172-31-20-236 [eb-cfn-init]:                                  Dload  Upload   Total   Spent    Left  Speed
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]: #015  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0#015  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0#015100 11250  100 11250    0     0   9917      0  0:00:01  0:00:01 --:--:--  9920
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]: + RESULT=0
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]: + [[ 0 -ne 0 ]]
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]: + /bin/bash /tmp/ebbootstrap.sh 'https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/aws-cfn-bootstrap-1.4-7_eb.noarch.rpm https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/aws-elasticbeanstalk-tools-1.16-1.noarch.rpm' https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/awseb-ruby-2.2.2-x86_64-20150919_0250.tar.gz 'https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/beanstalk-core-2.0.gem https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/beanstalk-core-healthd-1.1.gem https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/executor-1.1.gem' 'https://cloudformation-waitcondition-eu-west-1.s3-eu-west-1.amazonaws.com/arn%3Aaws%3Acloudformation%3Aeu-west-1%3A
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]: 320395818372%3Astack/awseb-e-pjqviujzwh-stack/77ce2c20-68c3-11e5-9e1b-50fa19418090/AWSEBInstanceLaunchWaitHandle?AWSAccessKeyId=AKIAJRBFOG6RPGASDWGA&Expires=1443848859&Signature=bQAOQxT4GKAaDcXiGz59ONDoFtU%3D' arn:aws:cloudformation:eu-west-1:320395818372:stack/awseb-e-pjqviujzwh-stack/77ce2c20-68c3-11e5-9e1b-50fa19418090 eu-west-1 515ec9206014 52894bf5-b4d1-431f-bdec-b5a4598f73ae '' nginx ''
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:25.221Z] Started EB Bootstrapping Script.
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:25.231Z] Received parameters:
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]:  RPMS = https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/aws-cfn-bootstrap-1.4-7_eb.noarch.rpm https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/aws-elasticbeanstalk-tools-1.16-1.noarch.rpm
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]:  TARBALLS = https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/awseb-ruby-2.2.2-x86_64-20150919_0250.tar.gz
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]:  EB_GEMS = https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/beanstalk-core-2.0.gem https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/beanstalk-core-healthd-1.1.gem https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/executor-1.1.gem
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]:  SIGNAL_URL = https://cloudformation-waitcondition-eu-west-1.s3-eu-west-1.amazonaws.com/arn%3Aaws%3Acloudformation%3Aeu-west-1%3A320395818372%3Astack/awseb-e-pjqviujzwh-stack/77ce2c20-68c3-11e5-9e1b-50fa19418090/AWSEBInstanceLaunchWaitHandle?AWSAccessKeyId=AKIAJRBFOG6RPGASDWGA&Expires=1443848859&Signature=bQAOQxT4GKAaDcXiGz59ONDoFtU%3D
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]:  STACK_ID = arn:aws:cloudformation:eu-west-1:320395818372:stack/awseb-e-pjqviujzwh-stack/77ce2c20-68c3-11e5-9e1b-50fa19418090
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]:  REGION = eu-west-1
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]:  GUID = 515ec9206014
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]:  HEALTHD_GROUP_ID = 52894bf5-b4d1-431f-bdec-b5a4598f73ae
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]:  HEALTHD_ENDPOINT = 
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]:  PROXY_SERVER = nginx
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]:  HEALTHD_PROXY_LOG_LOCATION =
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:25.239Z] Synchronizing network time in background.
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:25.319Z] yum repo has already been locked to 515ec9206014.
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:25.325Z] yum update has already been done.
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:25.586Z] Completed creating AWS EB users and groups.
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:25.592Z] Started executing install_rpms https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/aws-cfn-bootstrap-1.4-7_eb.noarch.rpm https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/aws-elasticbeanstalk-tools-1.16-1.noarch.rpm.
+Oct  2 05:09:25 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:25.598Z] Installing RPM: https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/aws-cfn-bootstrap-1.4-7_eb.noarch.rpm.
+Oct  2 05:09:26 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:26.739Z] aws-cfn-bootstrap-1.4-7_eb.noarch has already been installed. Skip installing.
+Oct  2 05:09:26 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:26.745Z] Installing RPM: https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/aws-elasticbeanstalk-tools-1.16-1.noarch.rpm.
+Oct  2 05:09:26 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:26.907Z] aws-elasticbeanstalk-tools-1.16-1.noarch has already been installed. Skip installing.
+Oct  2 05:09:26 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:26.913Z] Command Returned: 
+Oct  2 05:09:26 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:26.918Z] Completed executing install_rpms.
+Oct  2 05:09:26 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:26.924Z] Started executing install_tarballs https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/awseb-ruby-2.2.2-x86_64-20150919_0250.tar.gz.
+Oct  2 05:09:26 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:26.930Z] Installing tarball: https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/awseb-ruby-2.2.2-x86_64-20150919_0250.tar.gz.
+Oct  2 05:09:26 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:26.936Z] awseb-ruby-2.2.2-x86_64-20150919_0250.tar.gz has already been installed. Skip installing.
+Oct  2 05:09:26 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:26.942Z] Command Returned: 
+Oct  2 05:09:26 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:26.948Z] Completed executing install_tarballs.
+Oct  2 05:09:26 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:26.954Z] Started executing install_eb_gems https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/beanstalk-core-2.0.gem https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/beanstalk-core-healthd-1.1.gem https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/executor-1.1.gem.
+Oct  2 05:09:27 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:27.183Z] Installing EB Gem: https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/beanstalk-core-2.0.gem.
+Oct  2 05:09:31 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:31.569Z] beanstalk-core-2.0 has already been installed. Skip installing.
+Oct  2 05:09:31 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:31.575Z] Installing EB Gem: https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/beanstalk-core-healthd-1.1.gem.
+Oct  2 05:09:31 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:31.896Z] beanstalk-core-healthd-1.1 has already been installed. Skip installing.
+Oct  2 05:09:31 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:31.902Z] Installing EB Gem: https://s3-eu-west-1.amazonaws.com/elasticbeanstalk-env-resources-preprod-eu-west-1/stalks/eb_java_1.0.16.2/lib/executor-1.1.gem.
+Oct  2 05:09:32 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:32.222Z] executor-1.1 has already been installed. Skip installing.
+Oct  2 05:09:32 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:32.231Z] Command Returned: 
+Oct  2 05:09:32 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:32.237Z] Completed executing install_eb_gems.
+Oct  2 05:09:32 ip-172-31-20-236 [eb-cfn-init]: healthd stop/waiting
+Oct  2 05:09:32 ip-172-31-20-236 [eb-cfn-init]: healthd start/running, process 1427
+Oct  2 05:09:32 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:32 ip-172-31-20-236 [eb-cfn-init]: Waiting for healthd to start ...
+Oct  2 05:09:32 ip-172-31-20-236 su: (to healthd) root on none
+Oct  2 05:09:33 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:33 ip-172-31-20-236 [eb-cfn-init]: Waiting for healthd to start ...
+Oct  2 05:09:33 ip-172-31-20-236 [eb-cfn-init]:  2 Oct 05:09:33 ntpdate[1346]: adjust time server 193.1.31.66 offset 0.000069 sec
+Oct  2 05:09:33 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:33 ip-172-31-20-236 [eb-cfn-init]: Waiting for healthd to start ...
+Oct  2 05:09:34 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:34 ip-172-31-20-236 [eb-cfn-init]: Waiting for healthd to start ...
+Oct  2 05:09:34 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:34 ip-172-31-20-236 [eb-cfn-init]: Waiting for healthd to start ...
+Oct  2 05:09:35 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:35 ip-172-31-20-236 [eb-cfn-init]: Waiting for healthd to start ...
+Oct  2 05:09:35 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:35 ip-172-31-20-236 [eb-cfn-init]: Waiting for healthd to start ...
+Oct  2 05:09:36 ip-172-31-20-236 [eb-cfn-init]: {"status":"ok"}
+Oct  2 05:09:36 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:36.880Z] First init of system.
+Oct  2 05:09:36 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:36.886Z] Started executing cfn_init _OnInstanceBoot.
+Oct  2 05:09:36 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:36.892Z] Running cfn-init ConfigSet: _OnInstanceBoot.
+Oct  2 05:09:39 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:39.682Z] Command Returned: 
+Oct  2 05:09:39 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:39.688Z] Completed executing cfn_init.
+Oct  2 05:09:39 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:39.696Z] Check whether controlled by launch workflow...
+Oct  2 05:09:41 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.331Z] Worflow running.
+Oct  2 05:09:41 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.337Z] Workflow controlled instance. Running container provisioning...
+Oct  2 05:09:41 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.343Z] Started executing start_cfn_hup.
+Oct  2 05:09:41 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.349Z] Starting cfn-hup.
+Oct  2 05:09:41 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.363Z] Command Returned: cfn-hup start/running, process 1542
+Oct  2 05:09:41 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.378Z] Completed executing start_cfn_hup.
+Oct  2 05:09:41 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.394Z] Started executing run_eb_command { "api_version" : "1.0", "request_id": "0", "command_name": "CMD-PreInit" } .
+Oct  2 05:09:41 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.406Z] Running EB Command: { "api_version" : "1.0", "request_id": "0", "command_name": "CMD-PreInit" } .
+Oct  2 05:09:44 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.811Z] Command Returned: {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+Oct  2 05:09:44 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.817Z] Completed executing run_eb_command.
+Oct  2 05:09:44 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.823Z] Successfully bootstrapped instance.
+Oct  2 05:09:44 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.829Z] Sending success signal to CFN wait condition.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: CloudFormation signaled successfully with SUCCESS.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:45.177Z] Tailing /var/log/eb-commandprocessor.log
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: ******************* eb-commandprocessor taillog *******************
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.951Z] DEBUG [1552]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.951Z] DEBUG [1552]  : Checking if the command processor should execute...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.982Z] DEBUG [1552]  : Checking whether the command is applicable to instance (i-7c7e77dd)..
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.982Z] INFO  [1552]  : Command is applicable to this instance (i-7c7e77dd)..
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.982Z] DEBUG [1552]  : Checking if the received command stage is valid..
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.982Z] INFO  [1552]  : No stage_num in command. Valid stage..
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.983Z] INFO  [1552]  : Received command CMD-PreInit: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: {
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]:   "api_version" : "1.0",
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]:   "request_id": "0",
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]:   "command_name": "CMD-PreInit"
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: }
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.983Z] INFO  [1552]  : Command processor should execute command.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.983Z] DEBUG [1552]  : Storing current stage..
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.983Z] DEBUG [1552]  : Stage_num does not exist. Not saving null stage. Returning..
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.984Z] INFO  [1552]  : Executing Initialization
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.984Z] INFO  [1552]  : Executing command: CMD-PreInit...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.984Z] DEBUG [1552]  : Reading config file: /etc/elasticbeanstalk/.aws-eb-stack.properties
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.984Z] DEBUG [1552]  : Refreshing metadata..
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.985Z] DEBUG [1552]  : Refreshed environment metadata.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.985Z] DEBUG [1552]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_ContainerConfigFileContent||commands..
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.986Z] DEBUG [1552]  : Retrieving metadata for key: AWS::ElasticBeanstalk::Ext||_API||_Commands..
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.987Z] INFO  [1552]  : Found enabled addons: ["logpublish"].
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.989Z] INFO  [1552]  : Updating Command definition of addon logpublish.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.989Z] DEBUG [1552]  : Loaded definition of Command CMD-PreInit.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.989Z] INFO  [1552]  : Executing command CMD-PreInit activities...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.989Z] DEBUG [1552]  : Setting environment variables..
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.989Z] INFO  [1552]  : Running AddonsBefore for command CMD-PreInit...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.989Z] DEBUG [1552]  : Running stages of Command CMD-PreInit from stage 0 to stage 0...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.989Z] INFO  [1552]  : Running stage 0 of command CMD-PreInit...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.990Z] DEBUG [1552]  : Loaded 4 actions for stage 0.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.990Z] INFO  [1552]  : Running 1 of 4 actions: InfraWriteConfig...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.995Z] INFO  [1552]  : Running 2 of 4 actions: InfraWriteApp1...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.996Z] INFO  [1552]  : Running 3 of 4 actions: InfraWriteApp2...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.461Z] INFO  [1552]  : Running 4 of 4 actions: PreInitHook...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.790Z] INFO  [1552]  : Running AddonsAfter for command CMD-PreInit...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.790Z] INFO  [1552]  : Command CMD-PreInit succeeded!
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.791Z] INFO  [1552]  : Command processor returning results: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: {"status":"SUCCESS","api_version":"1.0","results":[{"status":"SUCCESS","msg":"","returncode":0,"events":[]}]}
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: ******************* End of taillog *******************
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:45.189Z] Tailing /var/log/eb-activity.log
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: ******************* eb-activity taillog *******************
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.984Z] INFO  [1552]  - [Initialization] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.989Z] INFO  [1552]  - [Initialization/AddonsBefore] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.989Z] INFO  [1552]  - [Initialization/AddonsBefore] : Completed activity.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.989Z] INFO  [1552]  - [Initialization/PreInitStage0] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.990Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteConfig] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.995Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteConfig] : Completed activity. Result:
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]:   Recreated directory /opt/elasticbeanstalk/deploy/configuration/.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]:   Generate appsource url file at /opt/elasticbeanstalk/deploy/configuration/appsourceurl.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]:   Generate container config file at /opt/elasticbeanstalk/deploy/configuration/containerconfiguration.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.995Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp1] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.996Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp1] : Completed activity. Result:
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]:   Recreated directory /opt/elasticbeanstalk/deploy/appsource.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:41.996Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:42.451Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:42.453Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2/Infra-WriteApplication2] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:42.506Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2/Infra-WriteApplication2/Command 01downloadVersion] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.392Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2/Infra-WriteApplication2/Command 01downloadVersion] : Completed activity.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.393Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2/Infra-WriteApplication2/Command 02deleteVersionDownloadScriptFile] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.407Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2/Infra-WriteApplication2/Command 02deleteVersionDownloadScriptFile] : Completed activity.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.407Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2/Infra-WriteApplication2] : Completed activity.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.407Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2/Infra-WriteApplication2] : Completed activity.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.461Z] INFO  [1552]  - [Initialization/PreInitStage0/InfraWriteApp2] : Completed activity.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.461Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.461Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook/01_install_dependencies.sh] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.573Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook/01_install_dependencies.sh] : Completed activity.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.573Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook/01_install_procfile.sh] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.682Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook/01_install_procfile.sh] : Completed activity.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.683Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook/01_install_proxy.sh] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.789Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook/01_install_proxy.sh] : Completed activity.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.790Z] INFO  [1552]  - [Initialization/PreInitStage0/PreInitHook] : Completed activity. Result:
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]:   Successfully execute hooks in directory /opt/elasticbeanstalk/hooks/preinit.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.790Z] INFO  [1552]  - [Initialization/PreInitStage0] : Completed activity. Result:
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]:   Initialization - Command CMD-PreInit stage 0 completed
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.790Z] INFO  [1552]  - [Initialization/AddonsAfter] : Starting activity...
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.790Z] INFO  [1552]  - [Initialization/AddonsAfter] : Completed activity.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:44.790Z] INFO  [1552]  - [Initialization] : Completed activity. Result:
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]:   Initialization - Command CMD-PreInit succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: ******************* End of taillog *******************
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:45.200Z] Tailing /var/log/eb-tools.log
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: ******************* eb-tools taillog *******************
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: ***eb-tools is not available yet.***
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: + exit 0
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: ******************* End of taillog *******************
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:45.361Z] Tailing /var/log/eb-version-deployment.log
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: ******************* eb-version-deployment taillog *******************
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:43,738 [INFO] Found the latest version manifest file <Key: elasticbeanstalk-eu-west-1-320395818372,resources/environments/e-pjqviujzwh/_runtime/versions/manifest_1443762443304> from bucket elasticbeanstalk-eu-west-1-320395818372 and prefix resources/environments/e-pjqviujzwh/_runtime/versions/
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:43,798 [INFO] Downloaded the manifest file to /tmp/version_file_manifest
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:44,369 [INFO] Downloaded version label babymanager-env02bVersion from s3 key <Key: elasticbeanstalk-eu-west-1-320395818372,resources/environments/e-pjqviujzwh/_runtime/_versions/BabyManager/babymanager-env02bVersion>
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: ******************* End of taillog *******************
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:45.370Z] Tailing /var/log/cfn-init.log
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: ******************* cfn-init taillog *******************
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:38,476 [INFO] -----------------------Starting build-----------------------
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:38,539 [INFO] Running configSets: _OnInstanceBoot
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:38,540 [INFO] Running configSet _OnInstanceBoot
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:38,549 [INFO] Running config AWSEBBaseConfig
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:38,568 [INFO] Command clearbackupfiles succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:38,597 [INFO] Running config AWSEBMessageOfTheDay
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:38,613 [INFO] Command 01clearoriginal succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:38,630 [INFO] Command 02createbanner succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:38,672 [INFO] Command 03updatebanner succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:38,802 [INFO] Running config AWSEBULimitConfig
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:38,827 [INFO] Command 00createlimitfile succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:38,847 [INFO] Running config Infra-InstallBaseHooksPkg
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:38,863 [INFO] Command 00mkdir succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,067 [INFO] Command 01download_base_hooks succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,121 [INFO] Command 02install_base_hooks succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,136 [INFO] Command 03cleanup succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,159 [INFO] Running config Infra-InstallContainerHooksPkg
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,175 [INFO] Command 00mkdir succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,403 [INFO] Command 01download_container_hooks succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,427 [INFO] Command 02install_container_hooks succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,441 [INFO] Command 03cleanup succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,458 [INFO] Running config Infra-WriteLeaderTestScript
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,470 [INFO] Running config AWSEBLockCfnBootstap
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,486 [INFO] Command add_lock succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,592 [INFO] Running config Infra-WriteTailLogsConf
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,610 [INFO] Running config Infra-WriteSystemTailLogsConf
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,626 [INFO] Running config Infra-WriteBundleLogsConf
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,634 [INFO] Running config Infra-WritePublishLogsConf
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,640 [INFO] Running config Infra-WritePublishLogsCron
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,644 [INFO] ConfigSets completed
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:39,656 [INFO] -----------------------Build complete-----------------------
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:42,402 [INFO] -----------------------Starting build-----------------------
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:42,450 [INFO] Running configSets: Infra-WriteApplication2
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:42,451 [INFO] Running configSet Infra-WriteApplication2
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:42,453 [INFO] Running config Infra-WriteApplication2
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:44,393 [INFO] Command 01downloadVersion succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:44,408 [INFO] Command 02deleteVersionDownloadScriptFile succeeded
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:44,414 [INFO] ConfigSets completed
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:44,429 [INFO] -----------------------Build complete-----------------------
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: ******************* End of taillog *******************
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:45.379Z] Tailing /var/log/cfn-hup.log
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: ******************* cfn-hup taillog *******************
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:41,887 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.eu-west-1.amazonaws.com
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:41,888 [DEBUG] SQS client initialized with endpoint https://eu-west-1.queue.amazonaws.com
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:41,888 [DEBUG] CloudFormation client initialized with endpoint https://cloudformation.eu-west-1.amazonaws.com
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:41,888 [DEBUG] Enabled single threading mode.
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:41,889 [DEBUG] Creating /var/lib/cfn-hup/data
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:41,894 [DEBUG] Registering listener i-7c7e77dd for stack arn:aws:cloudformation:eu-west-1:320395818372:stack/awseb-e-pjqviujzwh-stack/77ce2c20-68c3-11e5-9e1b-50fa19418090
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:42,509 [INFO] Refreshing listener credentials
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:42,512 [DEBUG] Get listener credentials for listener i-7c7e77dd in stack arn:aws:cloudformation:eu-west-1:320395818372:stack/awseb-e-pjqviujzwh-stack/77ce2c20-68c3-11e5-9e1b-50fa19418090
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:42,728 [INFO] Scheduling next credential refresh in 7200 seconds
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 2015-10-02 05:09:42,729 [DEBUG] Receiving messages for queue https://eu-west-1.queue.amazonaws.com/216463081828/5fd4a6160cb57e1715c6ad69058b6004cdb66445d7947094fb88471d3a760fd8
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: ******************* End of taillog *******************
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: 
+Oct  2 05:09:45 ip-172-31-20-236 [eb-cfn-init]: [2015-10-02T05:09:45.387Z] Completed EB Bootstrapping Script.
+Oct  2 05:10:23 ip-172-31-20-236 init: healthd main process (1427) terminated with status 1
+Oct  2 05:10:23 ip-172-31-20-236 su: (to healthd) root on none

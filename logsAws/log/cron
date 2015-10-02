@@ -1,0 +1,4 @@
+Oct  2 05:09:23 ip-172-31-20-236 crond[1309]: (CRON) STARTUP (1.4.4)
+Oct  2 05:09:23 ip-172-31-20-236 crond[1309]: (CRON) INFO (RANDOM_DELAY will be scaled with factor 39% if used.)
+Oct  2 05:09:23 ip-172-31-20-236 crond[1309]: (CRON) INFO (running with inotify support)
+Oct  2 05:10:01 ip-172-31-20-236 CROND[1658]: (root) CMD (publishLogs.py --de-dupe --conf-path '/opt/elasticbeanstalk/tasks/publishlogs.d/*' --location-prefix resources/environments/logs/publish/ --num-concurrent 2)

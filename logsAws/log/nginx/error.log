@@ -1,0 +1,2 @@
+2015/10/02 05:19:51 [error] 1813#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 89.69.84.108, server: , request: "GET / HTTP/1.1", upstream: "http://127.0.0.1:5000/", host: "52.17.152.63"
+2015/10/02 05:19:51 [error] 1813#0: *1 connect() failed (111: Connection refused) while connecting to upstream, client: 89.69.84.108, server: , request: "GET /favicon.ico HTTP/1.1", upstream: "http://127.0.0.1:5000/favicon.ico", host: "52.17.152.63", referrer: "http://52.17.152.63/"
